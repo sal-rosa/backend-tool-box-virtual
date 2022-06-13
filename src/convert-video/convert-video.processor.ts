@@ -14,8 +14,8 @@ import * as ffmpeg from 'fluent-ffmpeg';
 
 import UploadToS3 from '../utils/upload-to-S3';
 
-ffmpeg.setFfmpegPath('C:/ffmpeg/bin/ffmpeg');
-ffmpeg.setFfprobePath('C:/ffmpeg/bin/ffprobe');
+ffmpeg.setFfmpegPath('/usr/bin/ffmpeg');
+ffmpeg.setFfprobePath('/usr/bin/ffprobe');
 
 @Processor('convert-video')
 export class ConvertVideoProcessor {
