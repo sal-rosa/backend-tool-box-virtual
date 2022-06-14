@@ -22,7 +22,7 @@ export class RedisIoAdapter extends IoAdapter {
             cors: {
                 origin: '*',
             },
-            namespace: '/api/tool-box-virtual'
+            namespace: '/api/tool-box-virtual',
         });
         server.adapter(this.adapterConstructor);
         return server;
