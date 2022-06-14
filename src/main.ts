@@ -12,9 +12,9 @@ async function bootstrap() {
 
   app.useWebSocketAdapter(redisIoAdapter);
 
-  app.enableCors({ origin: '*' });
+  app.setGlobalPrefix('api/tool-box-virtual')
 
-  app.setGlobalPrefix('api-tool-box-virtual');
+  app.enableCors({ origin: '*' });
 
   await app.listen(2000);
 }
