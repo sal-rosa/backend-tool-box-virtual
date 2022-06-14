@@ -18,7 +18,12 @@ export class RedisIoAdapter extends IoAdapter {
     }
 
     createIOServer(port: number, options?: ServerOptions): any {
-        const server = super.createIOServer(port, options);
+        const server = super.createIOServer(port, {
+            cors: {
+                origin: '*',
+            },
+            namespace: '/api/tool-box-virtual'
+        });
         server.adapter(this.adapterConstructor);
         return server;
     }
