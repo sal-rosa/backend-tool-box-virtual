@@ -6,7 +6,6 @@ import { Socket, Server } from 'socket.io';
   cors: {
     origin: '*',
   },
-  namespace: '/api/tool-box-virtual',
   path: '/api/tool-box-virtual/ws'
 })
 export class ConvertVideoGateWay {
