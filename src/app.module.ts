@@ -3,7 +3,6 @@ import 'dotenv/config';
 import { Module } from '@nestjs/common';
 import { BullModule } from '@nestjs/bull';
 
-import { AppService } from './app.service';
 import { ConvertVideoModule } from './convert-video/convert-video.module';
 
 @Module({
@@ -16,6 +15,5 @@ import { ConvertVideoModule } from './convert-video/convert-video.module';
     }),
     ConvertVideoModule,
   ],
-  providers: [AppService],
 })
 export class AppModule {}
