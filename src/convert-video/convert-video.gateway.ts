@@ -7,6 +7,7 @@ import { Socket, Server } from 'socket.io';
     origin: '*',
   },
   namespace: '/api/tool-box-virtual',
+  path: '/api/tool-box-virtual/ws'
 })
 export class ConvertVideoGateWay {
   private logger: Logger = new Logger('ConvertVideoGateWay');
