@@ -30,6 +30,7 @@
     "@nestjs/microservices": "^8.4.5",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/platform-socket.io": "^8.4.6",
+    "@nestjs/platform-ws": "^8.4.7",
     "@nestjs/websockets": "^8.4.5",
     "@socket.io/redis-adapter": "^7.2.0",
     "aws-sdk": "^2.1140.0",
