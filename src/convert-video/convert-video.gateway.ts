@@ -7,7 +7,7 @@ import { Socket, Server } from 'socket.io';
     origin: '*',
   },
   path: '/api/tool-box-virtual/ws',
-  transports: ['websocket', 'polling']
+  transports: ['websocket']
 })
 export class ConvertVideoGateWay {
   private logger: Logger = new Logger('ConvertVideoGateWay');
