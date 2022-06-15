@@ -1,11 +1,13 @@
 import { WebSocketGateway, WebSocketServer } from '@nestjs/websockets';
 import { Logger } from '@nestjs/common';
-import { Server } from 'ws';
+import { Socket, Server } from 'socket.io';
+
 
 @WebSocketGateway({
   cors: {
     origin: '*',
   },
+  path: '/api/tool-box-virtual/ws',
 })
 export class ConvertVideoGateWay {
   private logger: Logger = new Logger('ConvertVideoGateWay');
@@ -31,11 +33,11 @@ export class ConvertVideoGateWay {
     this.server.to(socketId).emit('error-in-conversion', error);
   }
 
-  handleDisconnect(client: any) {
+  handleDisconnect(client: Socket) {
     this.logger.log(`Client disconnected: ${client.id}`);
    }
 
-  handleConnection(client: any) {
+  handleConnection(client: Socket) {
     this.server.to(client.id).emit('user-id', client.id);
     this.logger.log(`Client connected: ${client.id}`);
   }
