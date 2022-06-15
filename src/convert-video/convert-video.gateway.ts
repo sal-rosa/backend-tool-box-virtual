@@ -7,7 +7,7 @@ import { Socket, Server } from 'socket.io';
     origin: '*',
   },
   path: '/api/tool-box-virtual/ws',
-  transports: ['websocket']
+  transport: ['websocket']
 })
 export class ConvertVideoGateWay {
   private logger: Logger = new Logger('ConvertVideoGateWay');
@@ -32,6 +32,10 @@ export class ConvertVideoGateWay {
   handleErrorInConversion(socketId: string, error: any) {
     this.server.to(socketId).emit('error-in-conversion', error);
   }
+
+  handleDisconnect(client: Socket) {
+    this.logger.log(`Client disconnected: ${client.id}`);
+   }
 
   handleConnection(client: Socket) {
     this.server.to(client.id).emit('user-id', client.id);
