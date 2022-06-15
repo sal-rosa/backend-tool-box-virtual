@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app.module';
-import { WsAdapter } from '@nestjs/platform-ws';
+import { WsAdapter } from './adapters/ws-adapter';
 //import { AppCluster } from './app.cluster';                         # For more process
 //import { RedisIoAdapter } from './adapters/redis-io-adapter';       # Adapt socket with reids
 
@@ -10,7 +10,6 @@ async function bootstrap() {
 
   //const redisIoAdapter = new RedisIoAdapter(app);
   //await redisIoAdapter.connectToRedis();
-
   app.useWebSocketAdapter(new WsAdapter(app));
 
   app.setGlobalPrefix('api/tool-box-virtual');
