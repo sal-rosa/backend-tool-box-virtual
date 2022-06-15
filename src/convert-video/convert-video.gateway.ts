@@ -6,7 +6,6 @@ import { Server } from 'ws';
   cors: {
     origin: '*',
   },
-  path: '/api/tool-box-virtual/ws',
 })
 export class ConvertVideoGateWay {
   private logger: Logger = new Logger('ConvertVideoGateWay');
