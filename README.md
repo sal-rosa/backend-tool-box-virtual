@@ -15,6 +15,13 @@ The following tools were used in building the project:
 - [Ffmpeg](https://ffmpeg.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+### 💻 Functionalities
+
+<p align="center">
+ <a>Conversão de video</a>
+</p>
+
+
 ## Installation
 
 ```bash
