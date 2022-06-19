@@ -22,7 +22,13 @@ The following tools were used in building the project:
 
 ### 💻 Functionalities
 
-- [x] Video conversion
+- ✅ Video conversion
+
+### ⚠️ Prerequisites
+
+- [Install Nodejs](https://nodejs.org/en/)
+- [Install Redis](https://redis.io/)
+- [https://ffmpeg.org/](https://ffmpeg.org/)
 
 ## Installation
 
