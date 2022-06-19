@@ -17,7 +17,7 @@ The following tools were used in building the project:
 
 ### 💻 Functionalities
 
-- [ ] Video conversion
+- [x] Video conversion
 
 ## Installation
 
