@@ -2,14 +2,17 @@
 
 <p>Application that converts video to some formats using ffmpeg</p>
 
-### 🛠 Tecnologias
+### 🛠 Principais Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [NestJs](https://nestjs.com/)
+- [Redis](https://redis.io/)
+- [Socket.IO](https://socket.io/)
+- [Aws](https://aws.amazon.com/pt/)
+- [Bull](https://github.com/OptimalBits/bull)
+- [Ffmpeg](https://ffmpeg.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## Installation
