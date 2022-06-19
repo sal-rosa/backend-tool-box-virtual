@@ -28,7 +28,7 @@ The following tools were used in building the project:
 
 - [Install Nodejs](https://nodejs.org/en/)
 - [Install Redis](https://redis.io/)
-- [https://ffmpeg.org/](https://ffmpeg.org/)
+- [Install ffmpeg](https://ffmpeg.org/)
 
 ## Installation
 
