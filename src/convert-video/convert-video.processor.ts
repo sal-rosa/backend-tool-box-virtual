@@ -34,6 +34,7 @@ export class ConvertVideoProcessor {
 
     ffmpeg(`uploads/${job.data.video.filename}`)
       .videoCodec('libx264')
+      .addOption('-crf', '28')
       .audioCodec('libmp3lame')
       .on('progress', function (progress) {
         job.progress(progress.percent);
