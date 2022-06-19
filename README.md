@@ -2,6 +2,10 @@
 
 <p>Application that converts video to some formats using ffmpeg</p>
 
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./screenshots/image.png" />
+</h1>
+
 ### 🛠 Main technologies
 
 The following tools were used in building the project:
