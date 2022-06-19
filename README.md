@@ -13,6 +13,7 @@ The following tools were used in building the project:
 - [Aws](https://aws.amazon.com/pt/)
 - [Bull](https://github.com/OptimalBits/bull)
 - [Ffmpeg](https://ffmpeg.org/)
+- [Jest](https://jestjs.io/pt-BR/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ### 💻 Functionalities
