@@ -17,10 +17,7 @@ The following tools were used in building the project:
 
 ### 💻 Functionalities
 
-<p align="center">
- <a>Conversão de video</a>
-</p>
-
+- [x] Video conversion
 
 ## Installation
 
