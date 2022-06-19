@@ -2,9 +2,9 @@
 
 <p>Application that converts video to some formats using ffmpeg</p>
 
-### 🛠 Principais Tecnologias
+### 🛠 Main technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in building the project:
 
 - [Node.js](https://nodejs.org/en/)
 - [NestJs](https://nestjs.com/)
