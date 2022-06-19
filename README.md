@@ -3,7 +3,7 @@
 <p>Application that converts video to some formats using ffmpeg</p>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./screenshots/image.png" />
+  <img alt="Tool Box Virtual" title="Tool Box Virtual" src="./screenshots/image.png" />
 </h1>
 
 ### 🛠 Main technologies
